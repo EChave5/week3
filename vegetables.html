@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week 3</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <style>
+    div {
+      border-style: solid;
+      border-color: black;
+      margin: 2px;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body class="container-lg">
+    <!--Navigation buttons here-->
+    <nav class="navbar navbar-expand-md navbar-light bg-dark">
+      <a class="btn btn-outline-success m-auto" type="button" href="index.html">Home</a>
+      <a class="btn btn-outline-success m-auto" type="button" href="fruits.html">Fruits</a>
+      <a class="btn btn-outline-success m-auto" type="button" href="vegetables.html">Vegetables</a>
+    </nav>
+
+<!--Image-->
+<div class="container-md">
+  <h2 class="fs-1 text-center">Vegetables</h2>
+  <img src="https://cdn.britannica.com/17/196817-050-6A15DAC3/vegetables.jpg" class="img-fluid"  alt="assortment of vegetables" >
+</div>
+
+<!--Table-->
+<div class="container-md">
+  <p class="fs-3 fw-semibold">Examples of Vegetables</p>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">Type of Vegetable</th>
+        <th scope="col">Type of Plant</th>
+        <th scope="col">Type of Climate to Thrive</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Potato</th>
+        <td>Root</td>
+        <td>Temperate Climate</td>
+      </tr>
+      <tr>
+        <th scope="row">Squash</th>
+        <td>Vine</td>
+        <td>Tropical Climate</td>
+      </tr>
+      <tr>
+        <th scope="row">Onions</th>
+        <td>Roots</td>
+        <td>Temperate Climate</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
